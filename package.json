@@ -1,13 +1,14 @@
+
 {
   "name": "weather-api-azure",
   "version": "0.1.0",
-  "description": "Simple Hello World Express server",
+  "description": "Azure Functions app for receiving Weather Underground uploads",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start:functions": "func start"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "azure-functions-core-tools": "^4.5.0"
   },
   "engines": {
     "node": ">=18"
